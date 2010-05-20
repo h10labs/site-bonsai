@@ -11,7 +11,10 @@ header, section, article, footer, aside, nav { display: block; }
   margin: 0 auto;
   width: 660px;
 }
-body { font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif; }
+body {
+  font-family: "Tex Gyre Schola", Museo, "American Typewriter", Courier New, "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  background-color: #eaeaea;
+}
 header { margin-top: 3em; }
 header #logo { text-align: center; }
 header #logo a {
@@ -40,7 +43,7 @@ article li {
   line-height: 160%;
 }
 footer {
-  margin: 3em;
+  margin: 7em 0 1em 0;
   text-align: center;
 }
 nav li {
@@ -70,7 +73,22 @@ h3 { font-size: 1.4em; }
 h4 { font-size: 1.2em; }
 h5 { font-size: 1em; }
 h6 { font-size: 0.9em; }
-a { color: #256ec4; }
+article a {
+  color: #256ec4;
+  text-decoration: none;
+}
+article a:hover {
+  color: #ec4256;
+  background: yellow;
+}
+footer a {
+  color: #256ec4;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ec4256;
+  background: yellow;
+}
 article {
   font-size: 1.2em;
   line-height: 140%;

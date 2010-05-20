@@ -11,9 +11,14 @@
 		    <ul>
 		    {{#product}}
 		      <li>
-		        <a href="{{url}}">{{name}}</a>
+		        <a href="{{turl}}">{{name}}</a>
 		      </li>
 		    {{/product}}
+		    {{#comingsoon}}
+		      <li>
+		        {{name}} - coming soon!
+		      </li>
+		    {{/comingsoon}}
 		    </ul>
 	    </article>
 	

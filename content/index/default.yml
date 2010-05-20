@@ -4,14 +4,17 @@
 :product:
   - 
     :name: Yum Video Search
-    :url:  http://yum.heroku.com
+    :turl:  http://yum.heroku.com
+
+:comingsoon:
   - 
     :name: Bacon Bacon
   - 
     :name: Muni Near Me
   - 
-    :name: Radio Notifier
+    :name: Radio Notifier    
   - 
     :name: Hockey Goals
+    
 
   
