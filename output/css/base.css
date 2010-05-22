@@ -12,7 +12,7 @@ header, section, article, footer, aside, nav { display: block; }
   width: 660px;
 }
 body {
-  font-family: "Tex Gyre Schola", Museo, "American Typewriter", Courier New, "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  font-family: Vollkorn, Cardo, "Droid Serif", "Tex Gyre Schola", Museo, "American Typewriter", Courier New, "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
   background-color: #eaeaea;
 }
 header { margin-top: 3em; }
@@ -90,7 +90,7 @@ footer a:hover {
   background: yellow;
 }
 article {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 140%;
   margin-bottom: 10px;
   color: #333333;
