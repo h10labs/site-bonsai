@@ -12,7 +12,7 @@ header, section, article, footer, aside, nav { display: block; }
   width: 660px;
 }
 body {
-  font-family: "American Typewriter", Vollkorn, Georgia, serif;
+  font-family: "American Typewriter", Georgia, serif;
   background-color: #eaeaea;
 }
 header { margin-top: 3em; }
