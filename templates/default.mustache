@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{{> shared/art}}
 <html lang="en">
   {{> shared/head}}
   <body id="{{slug}}">
@@ -10,12 +11,16 @@
 		    {{{body}}}
 		    <ul>
 		    {{#product}}
-		      <li>
-		        <a href="{{turl}}">{{name}}</a>
+		      <li class='product'>
+		        <a href="{{turl}}" alt="{{desc}}">{{name}}</a>
+		        <div class='desc'>{{desc}}</div>
 		      </li>
 		    {{/product}}
+        </ul>
+        &nbsp;
+        <ul>
 		    {{#comingsoon}}
-		      <li>
+		      <li class='soon'>
 		        {{name}} - coming soon!
 		      </li>
 		    {{/comingsoon}}

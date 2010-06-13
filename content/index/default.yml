@@ -5,22 +5,26 @@
   - 
     :name: Yum Video Search
     :turl: http://yum.heroku.com
+    :desc: Search videos all over the web.
   -
     :name: Truveo Most Twittered Videos
     :turl: https://chrome.google.com/extensions/detail/ahidcamhgpefjpeaacopdlodlokphjdd?hl=en
+    :desc: A Google Chrome Extension.
   -
     :name: Remove TechCrunch Comments
     :turl: https://chrome.google.com/extensions/detail/lnakacebcchaghkhjhakdjdddhclalgm?hl=en
+    :desc: A Google Chrome Extension.
 
 :comingsoon:
   - 
     :name: Bacon Bacon
+    :desc: Who doesn't love bacon?
   - 
     :name: Muni Near Me
+    :desc: Get me a bus, stat!
   - 
-    :name: Radio Notifier    
+    :name: Radio Notifier
+    :desc: What's on?
   - 
     :name: Hockey Goals
-    
-
-  
+    :desc: Watch greatness.

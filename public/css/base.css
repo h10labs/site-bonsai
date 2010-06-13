@@ -39,9 +39,16 @@ header #navigation a {
 header #navigation a:hover { text-decoration: underline; }
 article h2 { text-align: center; }
 article li {
-  margin: 0 2em 0 6em;
+  text-align: center;
+  list-style-type: none;
   line-height: 160%;
 }
+article li .desc {
+  font-size: smaller;
+  color: grey;
+  margin-bottom: 0.5em;
+}
+article .soon { color: #666666; }
 footer {
   margin: 7em 0 1em 0;
   text-align: center;
