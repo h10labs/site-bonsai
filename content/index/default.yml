@@ -4,7 +4,13 @@
 :product:
   - 
     :name: Yum Video Search
-    :turl:  http://yum.heroku.com
+    :turl: http://yum.heroku.com
+  -
+    :name: Truveo Most Twittered Videoss
+    :turl: https://chrome.google.com/extensions/detail/ahidcamhgpefjpeaacopdlodlokphjdd?hl=en
+  -
+    :name: Remove TechCrunch Comments
+    :turl: https://chrome.google.com/extensions/detail/lnakacebcchaghkhjhakdjdddhclalgm?hl=en
 
 :comingsoon:
   - 
