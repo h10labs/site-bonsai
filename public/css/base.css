@@ -48,6 +48,10 @@ article li .desc {
   color: grey;
   margin-bottom: 0.5em;
 }
+article li .source {
+  font-size: small;
+  color: grey;
+}
 article .soon { color: #666666; }
 footer {
   margin: 7em 0 1em 0;

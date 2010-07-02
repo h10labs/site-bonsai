@@ -13,7 +13,12 @@
 		    {{#product}}
 		      <li class='product'>
 		        <a href="{{turl}}" alt="{{desc}}">{{name}}</a>
-		        <div class='desc'>{{desc}}</div>
+		        <div class='meta'>
+		          <span class='desc'>{{desc}}</span>
+  		        {{#source}}
+  		          <span class='source'> (<a href="{{source}}">Source</a>)</span>
+  		        {{/source}}
+		        </div>
 		      </li>
 		    {{/product}}
         </ul>

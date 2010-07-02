@@ -5,6 +5,7 @@
   - 
     :name: Yum Video Search
     :turl: http://yum.heroku.com
+    :source: http://github.com/hrp/Yum
     :desc: Search videos all over the web.
   -
     :name: Truveo Most Twittered Videos
@@ -18,10 +19,12 @@
     :name: Letterpress with Pages
     :desc: A great Tumblr theme with support for Pages.
     :turl: http://github.com/hrp/letterpress-tumblr-theme
+    :source: http://github.com/hrp/letterpress-tumblr-theme
   -
     :name: Deli Sandwich
     :turl: http://deli.heroku.com
     :desc: A daily dish of delicious links, RSS included.
+    :source: http://github.com/hrp/deli-sandwich
 
 :comingsoon:
   - 
