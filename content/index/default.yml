@@ -25,6 +25,11 @@
     :turl: http://deli.heroku.com
     :desc: A daily dish of delicious links, RSS included.
     :source: http://github.com/hrp/deli-sandwich
+  -
+    :name: Radio Notifier
+    :turl: http://github.com/hrp/radio-alert
+    :desc: Get an SMS when your favorite artist is playing on the radio.
+    :source: http://github.com/hrp/radio-alert
 
 :comingsoon:
   - 
@@ -33,9 +38,6 @@
   - 
     :name: Muni Near Me
     :desc: Get me a bus, stat!
-  - 
-    :name: Radio Notifier
-    :desc: What's on?
   - 
     :name: Hockey Goals
     :desc: Watch greatness.
