@@ -34,6 +34,10 @@
     :turl: http://github.com/hrp/radio-alert
     :desc: Get an SMS when your favorite artist is playing on the radio.
     :source: http://github.com/hrp/radio-alert
+  -
+    :name: Escapr
+    :turl: http://escapr.heroku.com
+    :desc: Quickly escape and encode text.
 
 :comingsoon:
   - 
