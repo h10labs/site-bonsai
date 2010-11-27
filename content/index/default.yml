@@ -38,6 +38,10 @@
     :name: Escapr
     :turl: http://escapr.heroku.com
     :desc: Quickly escape and encode text.
+  -
+    :name: Open Graph Inspector
+    :turl: https://chrome.google.com/extensions/detail/ebkdjclngbmacgocokfncakpdeemgfjm
+    :desc: Chrome extension to show Open Graph information for a webpage.
 
 :comingsoon:
   - 
