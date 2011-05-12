@@ -37,7 +37,7 @@ header #navigation a {
   text-decoration: none;
 }
 header #navigation a:hover { text-decoration: underline; }
-article h2 { text-align: center; }
+article { text-align: center; }
 article li {
   text-align: center;
   list-style-type: none;

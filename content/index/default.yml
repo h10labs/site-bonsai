@@ -1,47 +1,78 @@
 :headline: Explorations
-:body:
 
-:product:
+:products:
+  -
+    :type: Ruby Gems
+    :items:
+      -
+        :name: Hadoop Hive Adapter for Sequel
+        :turl: http://github.com/hrp/sequel-hive-adapter
+        :source: http://github.com/hrp/sequel-hive-adapter
+        :desc: A Hive adapter for <a href='http://sequel.rubyforge.org'>Sequel</a>. Uses Thrift.
+      -
+        :name: Atrium
+        :turl: http://github.com/hrp/atrium
+        :source: http://github.com/hrp/atrium
+        :desc: Instant webserver in a directory.
+      - 
+        :name: Annyong Fork
+        :turl: http://github.com/hrp/annyong
+        :source: http://github.com/hrp/annyong
+        :desc: <a href='https://github.com/remiprev/annyong'>Annyong</a> but displays csv and tsv files nicely.
   - 
-    :name: Yum Video Search
-    :turl: http://yum.heroku.com
-    :source: http://github.com/hrp/Yum
-    :desc: Search videos all over the web.
+    :type: Websites
+    :items:
+      - 
+        :name: Yum Video Search
+        :turl: http://yum.heroku.com
+        :source: http://github.com/hrp/Yum
+        :desc: Search videos all over the web.
+      -
+        :name: Escapr
+        :turl: http://escapr.heroku.com
+        :desc: Quickly escape and encode text.
+      -
+        :name: Deli Sandwich
+        :turl: http://deli.heroku.com
+        :desc: A daily dish of delicious links, RSS included.
+        :source: http://github.com/hrp/deli-sandwich
+  - 
+    :type: Chrome Extensions
+    :items:
+      -
+        :name: Truveo Most Twittered Videos
+        :turl: https://chrome.google.com/extensions/detail/ahidcamhgpefjpeaacopdlodlokphjdd?hl=en
+        :desc: A Google Chrome Extension.
+      -
+        :name: Remove TechCrunch Comments
+        :turl: https://chrome.google.com/extensions/detail/lnakacebcchaghkhjhakdjdddhclalgm?hl=en
+        :desc: A Google Chrome Extension. As seen on <a href="http://techcrunch.com/2010/08/12/techcrunch-comments/">TechCrunch</a>!
+      -
+        :name: Defacer for Chrome
+        :turl: https://chrome.google.com/extensions/detail/ikfbfahhinbemojiloekflkfeeplnibe?hl=en
+        :desc: A Google Chrome port of <a href="http://babelstudios.se/defacer/">Defacer for Safari</a>.
+      -
+        :name: Open Graph Inspector
+        :turl: https://chrome.google.com/extensions/detail/ebkdjclngbmacgocokfncakpdeemgfjm
+        :desc: Chrome extension to show Open Graph information for a webpage.
+
+  - 
+    :type: Themes
+    :items:
+      -
+        :name: Letterpress with Pages
+        :desc: A great Tumblr theme with support for Pages.
+        :turl: http://www.tumblr.com/theme/4691
+        :source: http://github.com/hrp/letterpress-tumblr-theme
+
   -
-    :name: Truveo Most Twittered Videos
-    :turl: https://chrome.google.com/extensions/detail/ahidcamhgpefjpeaacopdlodlokphjdd?hl=en
-    :desc: A Google Chrome Extension.
-  -
-    :name: Remove TechCrunch Comments
-    :turl: https://chrome.google.com/extensions/detail/lnakacebcchaghkhjhakdjdddhclalgm?hl=en
-    :desc: A Google Chrome Extension. As seen on <a href="http://techcrunch.com/2010/08/12/techcrunch-comments/">TechCrunch</a>!
-  -
-    :name: Defacer for Chrome
-    :turl: https://chrome.google.com/extensions/detail/ikfbfahhinbemojiloekflkfeeplnibe?hl=en
-    :desc: A Google Chrome port of <a href="http://babelstudios.se/defacer/">Defacer for Safari</a>.
-  -
-    :name: Letterpress with Pages
-    :desc: A great Tumblr theme with support for Pages.
-    :turl: http://www.tumblr.com/theme/4691
-    :source: http://github.com/hrp/letterpress-tumblr-theme
-  -
-    :name: Deli Sandwich
-    :turl: http://deli.heroku.com
-    :desc: A daily dish of delicious links, RSS included.
-    :source: http://github.com/hrp/deli-sandwich
-  -
-    :name: Radio Notifier
-    :turl: http://github.com/hrp/radio-alert
-    :desc: Get an SMS when your favorite artist is playing on the radio.
-    :source: http://github.com/hrp/radio-alert
-  -
-    :name: Escapr
-    :turl: http://escapr.heroku.com
-    :desc: Quickly escape and encode text.
-  -
-    :name: Open Graph Inspector
-    :turl: https://chrome.google.com/extensions/detail/ebkdjclngbmacgocokfncakpdeemgfjm
-    :desc: Chrome extension to show Open Graph information for a webpage.
+    :type: Grab Bag
+    :items:
+      -
+        :name: Radio Notifier
+        :turl: http://github.com/hrp/radio-alert
+        :desc: Get an SMS when your favorite artist is playing on the radio.
+        :source: http://github.com/hrp/radio-alert
 
 :comingsoon:
   - 
@@ -53,3 +84,6 @@
   - 
     :name: Hockey Goals
     :desc: Watch greatness.
+  - 
+    :name: Radio Matcher
+    :desc: Find radio stations that match your tastes anywhere.

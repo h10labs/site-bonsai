@@ -4,35 +4,39 @@
   {{> shared/head}}
   <body id="{{slug}}">
     <section id="wrapper">
-      {{> shared/header}}	
-	  
-	    <article>
-	      <h2>{{headline}}</h2>
-		    {{{body}}}
-		    <ul>
-		    {{#product}}
-		      <li class='product'>
-		        <a href="{{turl}}" alt="{{desc}}">{{name}}</a>
-		        <div class='meta'>
-		          <span class='desc'>{{{desc}}}</span>
-  		        {{#source}}
-  		          <span class='source'> (<a href="{{source}}">Source</a>)</span>
-  		        {{/source}}
-		        </div>
-		      </li>
-		    {{/product}}
-        </ul>
-        &nbsp;
-        <ul>
-		    {{#comingsoon}}
-		      <li class='soon'>
-		        {{name}} - coming soon!
-		      </li>
-		    {{/comingsoon}}
-		    </ul>
-	    </article>
-	
-      {{> shared/footer}}
+    {{> shared/header}}	
+
+    <article>
+    <h2>{{headline}}</h2>
+    <ul>
+      {{#products}}
+        <h3>{{type}}</h3>
+        {{#items}}
+          <li class='product'>
+          <a href="{{turl}}" alt="{{desc}}">{{name}}</a>
+          <div class='meta'>
+            <span class='desc'>{{{desc}}}</span>
+            {{#source}}
+            <span class='source'> (<a href="{{source}}">Source</a>)</span>
+            {{/source}}
+          </div>
+          </li>
+        {{/items}}
+      {{/products}}
+    </ul>
+    &nbsp;
+    <ul>
+      <h3>Coming Soon</h3>
+      {{#comingsoon}}
+      <li class='soon'>
+      {{name}}
+      <div class='meta'><span class='desc'>{{desc}}</span></div>
+      </li>
+      {{/comingsoon}}
+    </ul>
+    </article>
+
+    {{> shared/footer}}
     </section>
     {{> shared/analytics }}
     {{> shared/bottom}}
