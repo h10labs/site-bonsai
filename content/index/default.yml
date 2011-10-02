@@ -23,6 +23,10 @@
     :type: Websites
     :items:
       - 
+        :name: College Football Schedules
+        :turl: http://college-football-schedules.heroku.com
+        :desc: iCalendar (.ics) feeds for NCAA college football teams.
+      - 
         :name: Yum Video Search
         :turl: http://yum.heroku.com
         :source: http://github.com/hrp/Yum
